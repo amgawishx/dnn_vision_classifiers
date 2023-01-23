@@ -1,7 +1,7 @@
 import tensorflow as tf
 from sys import path
 from os import getcwd
-path.append("/".join(getcwd().split("\\")[::-1][1:][::-1])+"/ML Project")
+path.append("/".join(getcwd().split("\\")[::-1][1:][::-1])+"/dnn_vision_classifiers")
 from config import NO_CLASSES, DROPOUT_RATE, INPUT_SHAPE
 
 def ResNet50(ip):
