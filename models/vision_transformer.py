@@ -1,6 +1,6 @@
 from sys import path
 from os import getcwd
-path.append("/".join(getcwd().split("\\")[::-1][1:][::-1])+"/ML Project")
+path.append("/".join(getcwd().split("\\")[::-1][1:][::-1])+"/dnn_vision_classifiers")
 from config import VIT_CLASS_MLP, VIT_CUT_SIZES, VIT_ENCODER_MLP, \
     VIT_NO_PATCHES, VIT_NO_HEADS, NO_CLASSES, NO_LAYERS, DROPOUT_RATE, \
     VIT_LATENT_DIM
