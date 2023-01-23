@@ -2,7 +2,7 @@ from tensorflow.keras.callbacks import Callback
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from sys import path
 from os import getcwd
-path.append("/".join(getcwd().split("\\")[::-1][1:][::-1])+"/dnn_vision_classifiers")
+path.append("/".join(getcwd().split("\\")[::-1][1:][::-1]))
 from config import VALIDATION_SPLIT, TRAIN_DATA_PATH, TEST_DATA_PATH, \
                 IMAGE_SIZE, BATCH_SIZE, DECAY_RATE, KAGGLE_DATASET, ABS_DATA_PATH
 from kaggle import api
