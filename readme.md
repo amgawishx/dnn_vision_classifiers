@@ -1,5 +1,5 @@
 ## Project Description
-This is an educational project to compare different neural network vision classifiers and their results. It is designed with strong modularity in mind so that anyone can quickly tweak a few parameters and get it running.
+This is an educational project to compare different neural network vision classifiers and their results for the college course (Machine Learing EC559). It is designed with strong modularity in mind so that anyone can quickly tweak a few parameters and get it running.
 
 Main dependencies: 
 - tensorflow
